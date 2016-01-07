@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Fragments.Droid">
+  <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="21" />
+  <application android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Fragments.Droid" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md554169f37bbde09c774e6102aa6811bd9.SplashScreen" />
+    <activity android:label="Employee Detail" android:theme="@style/HoloTheme" android:name="md5be1f480d0fc2ea171b462414068114a5.EmployeeEditorView" />
+    <activity android:label="Employee List" android:theme="@style/HoloTheme" android:name="md5be1f480d0fc2ea171b462414068114a5.MainView" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Fragments.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Fragments.Droid" />
+      </intent-filter>
+    </receiver>
+    <activity android:icon="@drawable/icon" android:label="Fragments.Droid" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Mono.Android.Theme.Splash" android:name="fragments.droid.TrialSplashScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

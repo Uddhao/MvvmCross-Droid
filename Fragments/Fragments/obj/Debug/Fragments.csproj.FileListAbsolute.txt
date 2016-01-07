@@ -1,0 +1,9 @@
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\bin\Debug\Fragments.dll
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\bin\Debug\Fragments.pdb
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\bin\Debug\Cirrious.CrossCore.dll
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\bin\Debug\Cirrious.MvvmCross.Binding.dll
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\bin\Debug\Cirrious.MvvmCross.dll
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\bin\Debug\Cirrious.MvvmCross.Localization.dll
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\obj\Debug\Fragments.csprojResolveAssemblyReference.cache
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\obj\Debug\Fragments.dll
+E:\ubackup\Project\ViewPagerExample\ViewPagerFragment\Fragments\Fragments\obj\Debug\Fragments.pdb
